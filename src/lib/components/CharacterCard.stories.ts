@@ -1,4 +1,5 @@
 import CharacterCard from './CharacterCard.svelte';
+import avatar from '../../../static/no-profile-picture-icon.png';
 
 export default {
 	title: 'CharacterCard',
@@ -12,7 +13,8 @@ export const Primary = {
 			character: {
 				name: 'My Character',
 				gold: 5,
-				experience: 100
+				experiencePoints: 100,
+				avatar: avatar
 			}
 		}
 	})

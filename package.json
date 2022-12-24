@@ -23,6 +23,7 @@
 		"@smui/button": "^7.0.0-beta.0",
 		"@smui/card": "^7.0.0-beta.0",
 		"@smui/layout-grid": "^7.0.0-beta.0",
+		"@smui/list": "^7.0.0-beta.0",
 		"@smui/top-app-bar": "^7.0.0-beta.0",
 		"@storybook/addon-essentials": "^7.0.0-beta.14",
 		"@storybook/addon-interactions": "^7.0.0-beta.14",
