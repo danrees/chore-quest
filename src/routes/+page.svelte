@@ -1,15 +1,13 @@
 <script lang="ts">
-	import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
+	import PersonCard from '$lib/components/PersonCard.svelte';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 </script>
 
-<div class="flexy">
-	<div class="top-app-bar-container flexor">
-		<TopAppBar variant="short">
-			<Row>
-				<Section>
-					<Title>Chore Quest</Title>
-				</Section>
-			</Row>
-		</TopAppBar>
-	</div>
+<div>
+	<h1>Main Page</h1>
+	{#if data.user}
+		<PersonCard player={data.user} />
+	{/if}
 </div>

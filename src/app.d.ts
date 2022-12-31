@@ -6,4 +6,10 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Platform {}
+	type PocketBase = import('pocketbase').default;
+	type Player = import('$lib/types').Player;
+	interface Locals {
+		pb?: PocketBase;
+		user?: Player;
+	}
 }

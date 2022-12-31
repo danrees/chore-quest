@@ -1,14 +1,15 @@
 interface Entity {
-	name: string;
+	name?: string;
+	avatar?: number;
 }
 
 interface Player extends Entity {
-	login: string;
-	characters: Character[];
+	id?: string;
+	email?: string;
+	characters?: Character[];
 }
 
 interface Character extends Entity {
-	avatar: string;
 	experiencePoints: number;
 	gold: number;
 }
