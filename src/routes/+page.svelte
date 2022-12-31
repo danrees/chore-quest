@@ -7,7 +7,4 @@
 
 <div>
 	<h1>Main Page</h1>
-	{#if data.user}
-		<PersonCard player={data.user} />
-	{/if}
 </div>
