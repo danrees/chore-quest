@@ -1,11 +1,11 @@
 interface Entity {
 	name?: string;
-	avatar: number;
+	avatar?: number;
 }
 
 interface Player extends Entity {
-	id: string;
-	email: string;
+	id?: string;
+	email?: string;
 	characters?: Character[];
 }
 
