@@ -10,7 +10,7 @@
 		<TopAppBar variant="short" bind:this={topAppBar}>
 			<Row>
 				<Section>
-					<Title>Chore Quest</Title>
+					<Title><a href="/">Chore Quest</a></Title>
 				</Section>
 			</Row>
 		</TopAppBar>
