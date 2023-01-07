@@ -9,7 +9,7 @@
 <div class="card-container">
 	<Card padded variant="outlined">
 		<p>This is a Character Card for {character.name}</p>
-		<img class="avatar" src={character.avatar || defaultAvatar} alt="Character Avatar" />
+		<img class="avatar" src={defaultAvatar} alt="Character Avatar" />
 		<List>
 			<Item><Text>Gold: {character.gold}</Text></Item>
 			<Item><Text>Experience: {character.experiencePoints}</Text></Item>
