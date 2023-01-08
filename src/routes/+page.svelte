@@ -4,9 +4,10 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+	console.log(data);
 </script>
 
 <div>
-	<h1>Main Page</h1>
-	<Chorelist chores={data.chores || []} />
+	<h1>Quest Board</h1>
+	<Chorelist chores={data.chores || []} users={data.players || []} />
 </div>
