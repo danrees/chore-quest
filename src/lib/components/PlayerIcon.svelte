@@ -1,11 +1,11 @@
 <script lang="ts">
 	// TODO: see if this can be resizable
-	import type { Player } from '$lib/types';
+	import type { Character } from '$lib/types';
 	import Card, { Media } from '@smui/card';
 	import Button, { Label } from '@smui/button';
 	import PrimaryAction from '@smui/card/src/PrimaryAction.svelte';
 
-	export let player: Player;
+	export let player: Character;
 	export let defaultAvatar: string = 'no-profile-picture-icon.png';
 	export let action: () => void;
 	const width = '40px';
